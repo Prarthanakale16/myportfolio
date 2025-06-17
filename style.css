@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(140, 32, 203);
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menus{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.menus li{
+    position: relative;
+}
+.menus:hover{
+    color: purple;
+    cursor: pointer;
+    font-size: 21px;
+}
+#touch{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#touch:hover{
+    color: purple;
+}
+.bio{
+    height: 77vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 65px;
+}
+.mypic{
+    width: 350px;
+    height: 450px;
+    border: 10px solid rgb(255,255,255);
+    border-radius: 50%;
+    box-shadow:  10px 20px 20px rgba(0,0,0,0.2) inset;
+}
+.left{
+    font-size: 40px;
+    text-align: center;
+    margin-top:  140px;
+    font-weight: 700;
+}
+#purple{
+    color: rgb(201,12,201);
+}
+#element{
+color: rgb(201,12,201);
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.experience{
+    width: 100%;
+    height: 75vh;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.hr-line{
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.vr-line{
+width: 2px;
+height: 70px;
+background-color: black;
+}
+.icons{
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: -53px;
+    left: -21px;
+}
+.vr-role{
+    font-size: 25px;
+    font-weight: 1000;
+    width: 200px;
+    margin-top: 30px;
+    position: relative;
+    left: -50px;
+}
+.role{
+    color: rgb(201,12,201);
+}
+.vr-desc{
+    font-size: 14px;
+    width: 200px;
+    margin-top: 20px;
+    position: relative;
+    left: -70px;
+}
+.projects{
+    width: 100%;
+    height: 90vh;
+    margin-top: 30px;
+}
+
+.pr-img{
+    width: 100%;
+   height: 300px;
+    object-fit: cover;
+}
+.img-container{
+    display: flex;
+    transition:transform  0.7s ease-in-out;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+.btn:hover{
+    opacity: 1;
+}
+ footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+  h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .media{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: all 0.3s;
+  }
+  .media:hover{
+    color: rgb(201,12,201);
+    font-size: 32px;
+  }
+
+  .social{
+    display: flex;
+    gap: 30px;
+  }
+
+  .contact{
+    width: 50%;
+    height: 400px;
+    margin-left: 400px;
+    background-color: bisque;
+    text-align: center;
+  }
